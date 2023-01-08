@@ -1,0 +1,163 @@
+body {
+    background-color: #e8ded2;
+}
+
+.card-main {
+    width: 607.675px;
+    height: 455.75px;
+    margin: 200px auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.col {
+    padding: 0;
+    border-radius: 5%;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.image-mobile {
+    display: none;
+}
+
+
+/* Infomation section */
+
+.info {
+    padding: 11%;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-size: 1.875rem;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0.625rem 0;
+}
+
+H2 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.btn {
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    height: 2.5rem;
+}
+
+.btn:hover {
+    background-color: hsl(159, 35%, 19%);
+    color: white;
+}
+
+.lowprice {
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: hsl(158, 36%, 37%);
+    margin: 1.25rem 0;
+    width: 60%;
+}
+
+.highpricediv {
+    width: 40%;
+    margin: auto 10px;
+}
+
+.highprice {
+    margin: auto;
+}
+
+p {
+    font-size: 0.688rem;
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.price-row {
+    margin: 0;
+    text-align: left;
+    display: flex;
+}
+
+
+/* attribution */
+
+.attribution {
+    text-align: center;
+    padding-top: 1.25rem;
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .card-main {
+        width: 300px;
+        height: 600px;
+        margin: 100px auto;
+        background-color: white;
+        display: block;
+    }
+    .col {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+        border-radius: 5% 5% 0 0;
+        display: none;
+    }
+    .image-mobile {
+        display: block;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    h1 {
+        font-family: "Fraunces", serif;
+        font-size: 1.775rem;
+        font-weight: bold;
+        line-height: 1;
+        padding: 0.625rem 0;
+    }
+    H2 {
+        font-size: 0.675rem;
+        font-weight: 400;
+        color: hsl(228, 12%, 48%);
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 0.688rem;
+        font-weight: 400;
+        color: hsl(228, 12%, 48%);
+        text-decoration: line-through;
+    }
+    .lowprice {
+        font-family: "Fraunces", serif;
+        font-weight: bold;
+        font-size: 1.95rem;
+        color: hsl(158, 36%, 37%);
+        margin: 1.25rem 0;
+        width: 50%;
+    }
+    .highprice {
+        margin: auto 0;
+        width: 20%;
+    }
+    .price-row {
+        margin: 0;
+        text-align: left;
+        display: flex;
+    }
+}
